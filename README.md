@@ -2,6 +2,10 @@
 
 Dockerized Go dev environment
 
+# Prerequisites
+
+* Docker
+
 # Start it up
 
 ```
