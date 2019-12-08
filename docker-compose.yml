@@ -5,8 +5,7 @@ services:
                 image: "golang:latest"
                 stdin_open: true
                 tty: true
-                #volumes:
-                #        - ./web:/opt/code
-                #working_dir: /opt/code
-                #ports:
-                #        - "80:80"
+                volumes:
+                        - .:/go
+                ports:
+                        - "80:80"
